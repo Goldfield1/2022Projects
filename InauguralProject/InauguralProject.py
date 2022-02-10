@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # THIS IS A MERGE TEST LINE
+# NEW TEST LINE
 
 mp = {"phi": 0.3, "epsilon": 0.5, "r": 0.03, "tau_g": 0.012, "tau_p": 0.004, "p_bar": 3}
 
@@ -87,7 +88,7 @@ mp_new = {'phi': 0.3, 'epsilon': 0.8, 'r': 0.03, 'tau_g': 0.01, 'tau_p': 0.009, 
 
 target = mean
 tau_0 = 0.005
-tax_reform_sol = optimize.root(objective, tau_0, args=(target, m_i, mp_new)) 
+tax_reform_sol = optimize.root(objective, tau_0, args=(target, m_i, mp_new))
 
 print(tax_reform_sol.x)
 

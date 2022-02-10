@@ -2,6 +2,8 @@ from scipy import optimize
 import numpy as np
 import matplotlib.pyplot as plt
 
+# THIS IS A MERGE TEST LINE
+
 mp = {"phi": 0.3, "epsilon": 0.5, "r": 0.03, "tau_g": 0.012, "tau_p": 0.004, "p_bar": 3}
 
 def util(c, h, mp):
